@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 namespace DisneyAPI.Controllers
 {
     [ApiController]
-    [Route("api/auth")]
+    [Route("auth")]
     public class AuthenticationController : ControllerBase
     {
         private readonly UserManager<User> _userManager;

@@ -11,6 +11,6 @@ namespace DisneyAPI.Models
         public double Weight { get; set; }
         public string History { get; set; }
 
-        public ICollection<MovieOrSerie> MovieOrSerie { get; set; } = null!;
+        public List<MovieOrSerie> MovieOrSerie { get; set; } = null!;
     }
 }

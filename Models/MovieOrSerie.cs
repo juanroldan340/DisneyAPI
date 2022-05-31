@@ -10,9 +10,8 @@ namespace DisneyAPI.Models
         public int? MovieOrSerieId { get; set; }
         public string Image { get; set; }
         public string Title { get; set; }
-        public DateTime CreationDate { get; set; } = DateTime.Now;
-
-        public int? GenreId { get; set; }
+        public string CreationDate { get; set; }
+        public int? GenreId { get; set; } = null;
 
         [MaxLength(1)]
         public int Qualification { get; set; }

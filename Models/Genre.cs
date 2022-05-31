@@ -7,6 +7,6 @@ namespace DisneyAPI.Models
     {
         [Key]
         public int? GenreId { get; set; }
-        public ICollection<MovieOrSerie> MovieOrSerie { get; set; } = null!;
+        public List<MovieOrSerie> MovieOrSerie { get; set; } = null!;
     }
 }
